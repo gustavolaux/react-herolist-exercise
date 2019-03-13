@@ -1,0 +1,22 @@
+.herolistTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+}
+
+.herolist {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.herocard {
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+.herocard img {
+    border-radius: 10px;
+}

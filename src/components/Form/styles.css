@@ -1,0 +1,30 @@
+.form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fields {
+    float: left;
+}
+
+.input,
+.label {
+    display: block;
+}
+
+.label {
+    color: #666666;
+    font-size: 10px;
+}
+
+.input {
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 6px;
+}

@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.imageLabel {
+    left: 0;
+    top: 70%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 32px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gradientRed,
+.gradientBlack {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.gradientRed {
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(255, 101, 101, 0.68) 70.2%);
+}
+
+.gradientBlack {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 54.3%, rgba(0, 0, 0, 0.79) 92.82%);
+}
